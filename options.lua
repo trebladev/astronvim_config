@@ -7,6 +7,9 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    expandtab = false,
+    list = true,
+    listchars="trail:.",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
